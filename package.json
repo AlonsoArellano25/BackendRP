@@ -1,0 +1,19 @@
+{
+  "name": "app-rp-backend",
+  "version": "0.0.1",
+  "description": "Backend para la app de Real Plaza",
+  "main": "index.js",
+  "author": "Alonso Arellano",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-multiparty": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.10",
+    "nodemon": "^2.0.13"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+}
