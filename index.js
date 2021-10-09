@@ -6,7 +6,7 @@ const {API_VERSION, IP_SERVER, PORT_DB} = require("./config")
 
 //mongoose.set("useFindAndModify", false)
 
-mongoose.connect(`mongodb+srv://xxalonsoxx25:3560551A@cluster0.uzguy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`, {useNewUrlParser: true, useUnifiedTopology: true}, 
+mongoose.connect(`mongodb://${IP_SERVER}:${PORT_DB}/appRPbackend`, {useNewUrlParser: true, useUnifiedTopology: true}, 
 (err, res)=>{
 	if(err){
 		throw err;
